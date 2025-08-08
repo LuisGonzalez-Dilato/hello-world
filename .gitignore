@@ -1,0 +1,5 @@
+__pycache__/      # Python bytecode cache folders
+dist/             # PyInstaller output folder for exe
+build/            # PyInstaller temporary build files
+*.spec            # PyInstaller spec files
+.venv/            # Local virtual environment
