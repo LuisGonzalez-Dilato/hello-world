@@ -7,3 +7,4 @@ def new_test():
 if __name__ == "__main__":
     print(say_hello())
     print(new_test())
+    input("Type any key to continue:")
