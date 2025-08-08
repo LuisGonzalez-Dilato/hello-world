@@ -27,7 +27,9 @@ jobs:
         run: echo "PYTHONPATH=${{ github.workspace }}/src" >> $GITHUB_ENV
 
       - name: Run tests
-        run: pytest
+        run: |
+          export PYTHONPATH=.
+          pytest
 
   build:
     runs-on: ubuntu-latest
